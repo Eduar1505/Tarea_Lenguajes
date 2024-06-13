@@ -7,13 +7,13 @@
 import 'Circulo.dart';
 
 void main() {
-  final Circulo circulorojo = Circulo(radio: 5, color: 'Rojo');
+  final Circulo circulocolor = Circulo(radio: 5, color: 'Verde');
   final Circulo circulosincolor = Circulo(radio: 2);
 
-  print('Radio:  ${circulorojo.radio}');
-  print('Color del circulo: ${circulorojo.color}');
-  print('Area del circulo: ${circulorojo.calcularArea()}');
-  print('Perimetro del circulo: ${circulorojo.calcularPerimetro()}');
+  print('Radio:  ${circulocolor.radio}');
+  print('Color del circulo: ${circulocolor.color}');
+  print('Area del circulo: ${circulocolor.calcularArea()}');
+  print('Perimetro del circulo: ${circulocolor.calcularPerimetro()}');
 
   //Caracteristicas de Circulo sin color.
   print('');
