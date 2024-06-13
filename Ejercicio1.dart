@@ -7,8 +7,8 @@
 import 'Circulo.dart';
 
 void main() {
-  final Circulo circulorojo = Circulo(radio: 15, color: 'Rojo');
-  final Circulo circulosincolor = Circulo(radio: 10);
+  final Circulo circulorojo = Circulo(radio: 5, color: 'Rojo');
+  final Circulo circulosincolor = Circulo(radio: 2);
 
   print('Radio:  ${circulorojo.radio}');
   print('Color del circulo: ${circulorojo.color}');
