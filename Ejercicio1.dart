@@ -1,13 +1,7 @@
-/*  Crear clase llamada circulo que tenga las
-  propiedades radio y circulo.
-  Crear constructor que inicialice las propiedades.
-  Crear un metodo Calculararea() y un metodo 
-  Calcularperimtero().
-*/
 import 'Circulo.dart';
 
 void main() {
-  final Circulo circulocolor = Circulo(radio: 5, color: 'Verde');
+  final Circulo circulocolor = Circulo(radio: 5, color: 'Rojo');
   final Circulo circulosincolor = Circulo(radio: 2);
 
   print('Radio:  ${circulocolor.radio}');
